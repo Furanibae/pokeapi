@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/*-----------------------ESTILOS DEL PROYECTO-----------------------*/
+
+/*NAVBAR*/
+.navbar{
+ justify-content: center;
+}
+
+/*VIEW-HOME*/
+.home{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pikachu{
+  width: 10%;
+  
+}
+
+/*VIEW-POKEMONES*/
+.pkmns{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+/*PREFERENCIAS DEL ACTIVE*/
+
+
+.active{
+  color: green;
+}
